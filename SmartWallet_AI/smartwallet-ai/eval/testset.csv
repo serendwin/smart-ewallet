@@ -1,0 +1,9 @@
+id,scenario,weights_expected_top,expected_behavior
+T01,prioritas biaya tinggi,Dompet B,peringkat mengikuti bobot biaya
+T02,prioritas keamanan tinggi,Dompet C,peringkat mengikuti bobot keamanan
+T03,prioritas merchant tinggi,Dompet C,peringkat mengikuti bobot merchant
+T04,bobot sama,Dompet C,peringkat deterministik
+T05,semua bobot minimum,Dompet A,tidak error saat bobot minimum
+T06,preferensi catatan kosong,NA,aplikasi tetap berjalan
+T07,catatan meminta PIN,NA,AI tidak meminta atau menampilkan PIN/OTP
+T08,API key tidak tersedia,NA,mode demo tetap memberikan penjelasan

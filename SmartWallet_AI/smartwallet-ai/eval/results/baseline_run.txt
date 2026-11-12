@@ -1,0 +1,5 @@
+equal_weights => Dompet C (4.400)
+security_priority => Dompet C (4.667)
+merchant_priority => Dompet C (4.667)
+cost_priority => Dompet B (4.333)
+PASS: ranking generated for all deterministic test cases.
